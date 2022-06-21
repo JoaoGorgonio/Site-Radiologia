@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="68" height="69" viewBox="0 0 68 69">
+  <g id="Direita" transform="translate(-280 -366)">
+    <g id="Esquerda" transform="translate(280 366)" fill="none" stroke="#03978b" stroke-width="4">
+      <ellipse cx="34" cy="34.5" rx="34" ry="34.5" stroke="none"/>
+      <ellipse cx="34" cy="34.5" rx="32" ry="32.5" fill="none"/>
+    </g>
+    <g id="Icon_feather-arrow-left" data-name="Icon feather-arrow-left" transform="translate(301 389)">
+      <path id="Caminho_22" data-name="Caminho 22" d="M7.5,18H33.648" transform="translate(-7.5 -6.02)" fill="none" stroke="#03978b" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path id="Caminho_23" data-name="Caminho 23" d="M7.5,31.461,18,19.48,7.5,7.5" transform="translate(8.148 -7.5)" fill="none" stroke="#03978b" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    </g>
+  </g>
+</svg>

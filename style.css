@@ -1,0 +1,557 @@
+/*
+    Theme Name: Uniero
+    Text Domain: Radiologia Odontologica
+    Version: 1.0
+    Author: Summer Comunicação
+*/
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header .header-topo {
+    background-color: #03978B;
+}
+
+header .navbar-topo p,
+header .navbar-home p {
+    color: #FFF;
+}
+
+header .navbar-topo .svg-redes {
+    width: 1.8rem; 
+}
+
+header .btn-secondary:hover, header .btn-secondary:focus {
+    color: #fff;
+    background-color: transparent;
+    border-color: transparent;
+    box-shadow: none;
+}
+
+header .navbar-topo .btn,
+header .navbar-home .btn {
+    color: #FFF;
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+
+header .navbar-topo .botao-agendar {
+    background-color: #1B2D5B;
+    border-radius: 1rem;
+}
+
+header .navbar-topo .botao-agendar p:hover{
+    font-weight: 600;
+}
+
+header .navbar-topo .dropdown-toggle:focus, 
+header .navbar-home .dropdown-toggle:focus {
+    font-weight: 600;
+}
+
+header .navbar-topo .dropdown-toggle:not(:focus),
+header .navbar-home .dropdown-toggle:not(:focus) {
+    font-weight: 500;
+}
+
+header .navbar-home {
+    background: rgb(3,151,139);
+    background: linear-gradient(320deg, rgba(3,151,139,1) 0%, rgba(27,45,91,1) 79%);
+}
+
+header .navbar-home a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+header .dropdown-menu a {
+    color: #03978B;
+}
+
+header .dropdown-menu a:hover {
+    font-weight: 600;
+}
+
+header .navbar-home a:hover {
+    font-weight: 600;
+}
+
+header .navbar-home .logo-nav {
+    width: 15rem;
+}
+
+header .navbar-home .title-carousel {
+    font-weight: 700;
+    color: #FFF;
+    font-size: 3.6rem;
+}
+
+header .navbar-home #title-carousel {
+    font-weight: 500;
+    color: #03978B;
+    font-size: 3.6rem;
+}
+
+header .navbar-home .text-carousel {
+    font-weight: 500;
+}
+
+header .owl-carousel .owl-item img {
+    display: flex;
+    max-width: 80%;
+}
+
+header .navbar-home .botao-carousel .btn {
+    background-color: #03978B;
+    border: 1px solid transparent;
+    border-radius: 1rem;
+}
+
+header .navbar-home .botao-carousel .btn:hover {
+    background-color: transparent;
+    border: 1px solid #FFF;
+    border-radius: 1rem;
+}
+
+header .navbar-home .botao-carousel2 .btn {
+    background-color: transparent;
+    border: 1px solid #FFF;
+    border-radius: 1rem;
+}
+
+header .navbar-home .botao-carousel2 .btn:hover {
+    background-color: #03978B;
+    border: 1px solid transparent;
+    border-radius: 1rem;
+}
+
+header .navbar-home .pesquisa {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #FFF;
+    background-color: rgba(255, 255, 255, 0.4);
+    background-clip: padding-box;
+    border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.50rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+header .navbar-home .pesquisa::placeholder {
+    color: #FFF;
+}
+
+header .navbar-home .search-icon {
+    position: absolute;
+    top: 21%;
+    right: 5%;
+}
+
+header .navbar-home .left-arrow {
+    content: url(https://concepts.summercomunicacao.com.br/uniero/site2022/wp-content/themes/uniero/assets/img/icon-seta.svg);
+    transform: rotateY(180deg);
+}
+
+header .navbar-home .left-arrow:hover {
+    content: url(https://concepts.summercomunicacao.com.br/uniero/site2022/wp-content/themes/uniero/assets/img/icon-seta-hover.svg);
+    transform: rotateY(0deg);
+}
+
+header .navbar-home .right-arrow {
+    content: url(https://concepts.summercomunicacao.com.br/uniero/site2022/wp-content/themes/uniero/assets/img/icon-seta.svg);
+}
+
+header .navbar-home .right-arrow:hover {
+    content: url(https://concepts.summercomunicacao.com.br/uniero/site2022/wp-content/themes/uniero/assets/img/icon-seta-hover.svg);
+    transform: rotateY(180deg);
+}
+
+header .navbar-home .owl-theme .owl-nav [class*=owl-]:hover {
+    background: transparent !important;
+}
+
+header .navbar-home .owl-theme .owl-nav {
+    position: absolute;
+    top: 33%;
+    width: 100%;
+}
+
+header .navbar-home .owl-carousel .owl-nav button.owl-next {
+    position: absolute;
+    right: 0;
+}
+
+header .navbar-home .owl-carousel .owl-nav button.owl-prev {
+    position: absolute;
+    left: 0;
+}
+
+header .menu-home {
+    position: relative;
+    margin-top: -2%;
+    z-index: 1;
+}
+
+header .menu-home .menu-opcoes {
+    background-color: #03978B;
+    border-radius: 0.8rem;
+}
+
+footer .footer-primario {
+    background: rgb(3,151,139);
+    background: linear-gradient(320deg, rgba(3,151,139,1) 0%, rgba(27,45,91,1) 79%);
+}
+
+footer .footer-secundario {
+    background-color: #03978B;
+}
+
+footer .footer-secundario .texto-secundario {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #FFF;
+}
+
+footer .footer-secundario #copyright {
+    height: 40px;
+}
+
+footer .footer-secundario #summer-logo {
+    width: 100px;
+}
+
+
+header .menu-home .menu-opcoes .opcao-resultados,
+header .menu-home .menu-opcoes .opcao-convenio,
+header .menu-home .menu-opcoes .opcao-download {
+    border-right: 1px solid #1B2D5B;
+}
+
+header .menu-home .menu-opcoes .opcoes-menu p {
+    color: #FFF;
+}
+
+header .menu-home p:hover {
+    font-weight: 600;
+}
+
+:root {
+    --white:      #FFFFFF;
+    --orange:     #E15029;
+    --blue-dark:  #1B2D5B;
+    --blue-cyan:   #03978B;
+    --paragrafo: 15px;
+    --h1:        50px;
+    --h4:        26px;
+}
+
+header .navbar-mobile #mobile {
+    background-color: var(--white);
+    height: 80px;
+    z-index: 99999;
+}
+
+header .navbar-mobile .navbar-toggler {
+    background-color: var(--white);
+}
+
+header .navbar-mobile #mobile .logo {
+    width: 55px;
+}
+
+header .navbar-mobile #mobile .logoIcon {
+    width: 35px;
+}
+
+header .navbar-mobile #mobile .svg-redes {
+    width: 30px;
+}
+
+header .navbar-mobile #mobile button{
+    border: none;
+    color: transparent !important;
+    background-color: transparent;
+}
+
+header .navbar-mobile #mobile .unidades-SP {
+    border: none;
+    color: white !important;
+    background-color: transparent;
+}
+
+header .navbar-mobile #mobile svg {
+    width: 40px;
+    height: 40px;
+    color: var(--blue-cyan);
+}
+
+header .navbar-mobile #mobile  .color-white{
+    background-color: var(--white);
+}
+
+header .navbar-mobile #mobile  .color-cyan{
+    background-color: var(--blue-cyan);
+}
+
+header .navbar-mobile #mobile .midia{
+    background-color: var(--blue-cyan);
+    width: 60%;
+    height: 80px;
+}
+
+header .navbar-mobile #mobile .midia svg {
+    color: var(--white);
+}
+
+header .navbar-mobile #mobile ul {
+    padding: 0 7%;
+}
+
+header .navbar-mobile #mobile li {
+    width: 100%;
+    border-bottom: 1px solid var(--blue-cyan);
+}
+
+header .navbar-mobile #mobile li a {
+    color: var(--blue-cyan);    
+    text-decoration: none;
+    font-size: 20px;
+}
+
+header .navbar-mobile #mobile li .tel-unidades {
+    color: var(--white);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+header .navbar-mobile #mobile .divisor-telefone {
+    font-weight: 300;
+    color: #FFF;
+}
+
+header .navbar-mobile #mobile .uni {
+    margin-top: 20px;
+    border: none;
+}
+
+header .navbar-mobile #mobile .unidades-button h1 {
+    color: var(--white);
+    font-size: 20px;
+    margin: 0px;
+}
+
+header .navbar-mobile #mobile .unidades-button {
+    width: 100%;
+    padding: 10% 2% 3%;
+    border-bottom: 1px solid rgba(255,255,255,0.6);
+}
+
+header .navbar-mobile #mobile .uni h1 {
+    color: var(--white);
+    font-size: 20px;
+    margin: 0px;
+}
+
+header .navbar-mobile #mobile .uni p {
+    color: var(--white);
+    font-size: 14px;
+    margin: 0px;
+}
+
+header .navbar-mobile #mobile .uni .location svg {
+    width: 30px;
+    height: 30px;
+}
+
+header .navbar-mobile #mobile .social {
+    padding: 10px;
+    background-color: var(--blue-cyan);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .navbar-mobile #mobile .social .radius {
+    border: 2px solid var(--white);
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .navbar-mobile #mobile .social svg {
+    color: var(--white);
+    width: 14.25px;
+    height: 14.25px;
+}
+
+header .navbar-mobile #mobile .exames {
+    background-color: var(--blue-dark);
+    height: 80px;
+}
+
+header .navbar-mobile #mobile .exames a {
+    color: var(--white);
+    text-decoration: none;
+    /*text-align: center;*/
+    font-size: 16px;
+    padding: 10px;
+    line-height: 15px;
+}
+
+header .navbar-mobile #mobile .exames .iconeRequisicaoHeader {
+    width: 50px !important;
+}
+
+header .navbar-mobile #mobile .exames img {
+    width: 50px;
+    height: 45px;
+}
+
+header .navbar-mobile #mobile .exames .border-rig {
+    border-right: 2px solid var(--white);
+}
+
+
+
+@media screen and (max-width: 1024px)
+{
+    header .home-navbar .logo-nav {
+        display: none;
+    }
+
+    header .navbar-home .title-carousel,
+    header .navbar-home #title-carousel {
+        font-size: 2.5rem;
+    }
+
+    header .owl-carousel .owl-item img {
+        display: flex;
+        max-width: 260px;
+    }
+
+}
+
+@media screen and (max-width: 768px)
+{
+    header .menu-home {
+        position: relative;
+        margin-top: 0%;
+        z-index: 1;
+    }
+
+    .home-navbar {
+        display: none;
+    }
+
+    header .owl-carousel .owl-item img {
+        display: flex;
+        max-width: 320px;
+    }
+
+    header .navbar-home .owl-theme .owl-nav {
+        top: 49%;
+        width: 97%;
+    }
+
+    header .menu-home .menu-opcoes {
+        background-color: transparent;
+    }
+
+    header .menu-home .opcoes-menu {
+        background-color: #03978B;
+        border-radius: 0.8rem;
+    }
+
+    header .menu-home .menu-opcoes .opcao-resultados,
+    header .menu-home .menu-opcoes .opcao-convenio,
+    header .menu-home .menu-opcoes .opcao-download {
+        border-right: none;
+    }
+
+}
+
+@media screen and (max-width: 425px)
+{
+    header .navbar-home .owl-theme .owl-nav {
+        top: 50%;
+        width: 96%;
+    }
+
+    footer .footer-secundario .texto-secundario {
+        font-size: 0.8rem;
+    }
+
+    footer .footer-secundario #summer-logo {
+        width: 80px;
+    }
+}
+
+@media screen and (max-width: 375px)
+{
+    footer .footer-secundario .texto-secundario {
+        font-size: 1rem;
+    }
+
+    footer .footer-secundario #summer-logo {
+        width: 100px;
+    }
+}
+
+@media screen and (max-width: 360px)
+{
+    header .navbar-mobile #mobile .logo {
+        width: 40px;
+    }
+
+    header .navbar-mobile #mobile .logoIcon {
+        width: 34px;
+    }
+
+    header .navbar-mobile .navbar-collapse {
+        max-height: 632pxpx;
+        overflow-y: auto;
+    }
+
+    footer .footer-secundario .texto-secundario {
+        font-size: 0.9rem;
+    }
+
+    footer .footer-secundario #summer-logo {
+        width: 80px;
+    }
+
+    header .navbar-mobile #mobile li a {
+        font-size: 1.2rem;
+    }
+
+    header .navbar-mobile #mobile .exames a {
+        font-size: 0.9rem;
+    }
+
+    header .navbar-mobile #mobile .unidades-button h1 {
+        font-size: 1rem;
+    }
+
+    header .navbar-mobile #mobile .uni h1 {
+        font-size: 1.05rem;
+    }
+
+     header .navbar-mobile #mobile .location {
+        margin-right: 0 !important;
+        padding-right: 2.5rem !important;
+    }
+
+    header .navbar-mobile #mobile .logoIcon {
+        width: 32px;
+    }
+}

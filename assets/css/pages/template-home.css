@@ -1,0 +1,881 @@
+.exames .title-section {
+	color: #1B2D5B;
+	font-size: 2.3rem;
+	font-weight: 700;
+}
+
+.exames .subtitle-section {
+	font-size: 1.5rem;
+	font-weight: 400;
+	color: #6E6E6E;
+}
+
+.exames .subtitle-section .active {
+	color: #1B2D5B;
+	font-size: 1.5rem;
+	font-weight: 600;
+}
+
+.exames .subtitle-section a {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.exames .exames-opcoes {
+    min-height: 214px;
+}
+
+.exames .opcoes-exame .exames-icon {
+	height: 134px;
+}
+
+.exames .opcoes-exame .exames-title {
+	font-weight: 600;
+}
+
+.bem-vindo .bem-vindo-title {
+	color: #FFF;
+	font-weight: 700;
+	font-size: 2.5rem;
+}
+
+.bem-vindo .bem-vindo-texto {
+	color: #FFF;
+	font-weight: 500;
+	font-size: 1rem;
+}
+
+.bem-vindo .bem-vindo-indicador {
+	color: #FFF;
+	font-weight: 600;
+	font-size: 1rem;
+}
+
+.divisor {
+	background-color: rgba(255,255,255, 0.4);
+	height: 1px;
+}
+
+.bem-vindo .conteudo-bem-vindo {
+	background-color: #03978B;
+	border-radius: 0.8rem;
+	position: absolute;
+}
+
+.bem-vindo .video-bem-vindo #video {
+	border-radius: 0.8rem 0rem 0rem 0.8rem;
+	-webkit-box-shadow: 7px 6px 14px 1px rgba(0,0,0,0.45); 
+	box-shadow: 7px 6px 14px 1px rgba(0,0,0,0.45);
+	width: 100%; 
+	height: 702px;
+}
+
+.dentistas .titulo-dentista {
+	color: #1B2D5B;
+	font-weight: 500;
+	font-size: 2.3rem;
+}
+
+.dentistas .titulo-dentista #titulo-dentista {
+	font-weight: 700;	
+}
+
+.dentistas .dentistas-parceiros {
+	width: 23rem;
+	height: 22rem;
+	border-radius: 1rem;
+	opacity: 0.3;
+}
+
+.dentistas .active .dentistas-parceiros{
+	opacity: 0.4;
+}
+
+.dentistas .center .dentistas-parceiros {
+	opacity: 1;
+}
+
+.dentistas #dentista-parceiro1 {
+	background-color: #D5E6EE;
+}
+
+.dentistas #dentista-parceiro2 {
+	background-color: #D5F0EB;
+}
+
+.dentistas .divisor-carousel {
+    width: 2px !important;
+    height: 14rem;
+    background-color: #03978B;
+}
+
+.dentistas .cabecalho-imagem {
+	width: 90px !important;
+}
+
+.dentistas .nome-parceiro {
+	font-size: 1.8rem;
+	color: #1B2D5B; 
+	font-weight: 700;
+}
+
+.dentistas .funcao-parceiro {
+	color: #25AAE2;
+	font-size: 1.2rem;
+}
+
+.dentistas .texto-dentistas {
+    letter-spacing: 1.2px;
+    font-size: 0.99rem;
+    font-weight: 500;
+}
+
+.dentistas .owl-theme .owl-dots {
+    margin-top: 30px;
+}
+
+.dentistas .owl-theme .owl-dots .owl-dot.active span {
+    background: #03978B;
+}
+
+.dentistas .owl-theme .owl-dots .owl-dot:hover span {
+	background: #63c2ba;
+}
+
+.dentistas .left-arrow {
+    content: url(https://concepts.summercomunicacao.com.br/uniero/site2022/wp-content/themes/uniero/assets/img/icon-seta.svg);
+    transform: rotateY(180deg);
+    width: 3.5rem;
+}
+
+.dentistas .left-arrow:hover {
+    content: url(https://concepts.summercomunicacao.com.br/uniero/site2022/wp-content/themes/uniero/assets/img/icon-seta-hover2.svg);
+    transform: rotateY(180deg);
+}
+
+.dentistas .right-arrow {
+    content: url(https://concepts.summercomunicacao.com.br/uniero/site2022/wp-content/themes/uniero/assets/img/icon-seta.svg);
+    width: 3.5rem;
+}
+
+.dentistas .right-arrow:hover {
+    content: url(https://concepts.summercomunicacao.com.br/uniero/site2022/wp-content/themes/uniero/assets/img/icon-seta-hover2.svg);
+    transform: rotateY(0deg);
+}
+
+.dentistas .owl-theme .owl-nav [class*=owl-]:hover {
+    background: transparent !important;
+}
+
+.dentistas .owl-theme .owl-nav {
+    position: absolute;
+    top: 32%;
+    width: 100%;
+}
+
+.dentistas .owl-carousel .owl-nav button.owl-next {
+    position: absolute;
+}
+
+.dentistas .owl-carousel .owl-nav button.owl-prev {
+    position: absolute;
+}
+
+.uniero-360 #imagem-360 {
+	border-radius: 0rem 0.8rem 0.8rem 0rem;
+	-webkit-box-shadow: 7px 6px 14px 1px rgba(0,0,0,0.2); 
+	box-shadow: 7px 6px 14px 1px rgba(0,0,0,0.2);
+	max-width: 95%;
+}
+
+.uniero-360 .title-360 {
+	color: #1B2D5B;
+    font-weight: 500;
+    font-size: 2.3rem;
+}
+
+.uniero-360 #title-360 {
+	font-weight: 700;
+}
+
+.uniero-360 .content-360 {
+	color: #000;
+    font-weight: 500;
+    font-size: 1.02rem;
+    letter-spacing: 0.9px;
+}
+
+.noticias .noticia-titulo {
+	font-weight: 500;
+	font-size: 2.3rem;
+	color: #1B2D5B;
+}
+
+.noticias #noticia-titulo {
+	font-weight: 700;
+	font-size: 2.3rem;
+	color: #1B2D5B;
+}
+
+.noticias .ver-mais-button {
+	color: #fff;
+    background-color: #03978B;
+    font-weight: 500;
+}
+
+.noticias .ver-mais-button:hover {
+	font-weight: 600;
+}
+
+.noticias .btn {
+    border: 1px solid transparent;
+    font-size: 1rem;
+    border-radius: 0.8rem;
+}
+
+.noticias .noticia-destaque a {
+	text-decoration: none;
+}
+
+.noticias .noticia-secundaria a {
+	text-decoration: none;
+}
+
+.noticias .imagem-destaque {
+	border: 3px solid #03978B;
+	border-radius: 0.8rem 0.8rem 0rem 0rem;
+	border-bottom: none;
+}
+
+.noticias .imagem-destaque {
+	height: 22rem;
+	width: 500px !important;
+	object-fit: cover;
+}
+
+.noticias .imagem-secundaria {
+	border: 3px solid #03978B;
+	border-radius: 0rem 0.8rem 0.8rem 0rem;
+	border-left: none;
+}
+
+.noticias .imagem-secundaria {
+	height: 18rem;
+	width: 283px !important;
+	object-fit: cover;
+}
+
+.noticias .info-post {
+	width: 500px;
+	background-color: #D5F0EB;
+	border-radius: 0rem 0rem 0.8rem 0.8rem;
+	border: 3px solid #03978B;
+	border-top: none;
+	height: 15.5rem;
+}
+
+.noticias .info-post2 {
+	background-color: #D5F0EB;
+	border-radius: 0.8rem 0rem 0rem 0.8rem;
+	border: 3px solid #03978B;
+	border-right: none;
+	height: 18rem;
+}
+
+.noticias .imagem-destaque-mobile {
+	height: 22rem;
+	width: 100%;
+	object-fit: cover;
+	border: 3px solid #03978B;
+	border-radius: 0.8rem 0.8rem 0rem 0rem;
+	border-bottom: none;
+}
+
+.noticias .info-post-mobile {
+	width: 100%;
+	background-color: #D5F0EB;
+	border-radius: 0rem 0rem 0.8rem 0.8rem;
+	border: 3px solid #03978B;
+	border-top: none;
+	height: 15.5rem;
+}
+
+.noticias .post-data {
+	background-color: #1B2D5B;
+	border-radius: 0.8rem;
+}
+
+.noticias .data-post
+{
+	font-size: 0.8rem;
+	font-weight: 400;
+	color: #FFF;	
+}
+
+.noticias .titulo-post {
+	font-size: 1.4rem;
+	font-weight: 700;
+	color: #1B2D5B;
+}
+
+.noticias .ver-mais-noticias {
+	border: 2.5px solid #03978B;
+	color: #03978B;
+	font-weight: 400;
+	font-size: 0.8rem;
+}
+
+.noticias .ver-mais-noticias:hover {
+	color: #FFF;
+	background-color: #03978B;
+}
+
+.noticias .owl-theme .owl-dots .owl-dot.active span {
+    background: #03978B;
+}
+
+.noticias .owl-theme .owl-dots .owl-dot:hover span {
+	background: #63c2ba;
+}
+
+.noticias .left-arrow {
+    content: url(https://concepts.summercomunicacao.com.br/uniero/site2022/wp-content/themes/uniero/assets/img/icon-seta.svg);
+    transform: rotateY(180deg);
+    width: 3.5rem;
+}
+
+.noticias .left-arrow:hover {
+    content: url(https://concepts.summercomunicacao.com.br/uniero/site2022/wp-content/themes/uniero/assets/img/icon-seta-hover2.svg);
+    transform: rotateY(180deg);
+}
+
+.noticias .right-arrow {
+    content: url(https://concepts.summercomunicacao.com.br/uniero/site2022/wp-content/themes/uniero/assets/img/icon-seta.svg);
+    width: 3.5rem;
+}
+
+.noticias .right-arrow:hover {
+    content: url(https://concepts.summercomunicacao.com.br/uniero/site2022/wp-content/themes/uniero/assets/img/icon-seta-hover2.svg);
+    transform: rotateY(0deg);
+}
+
+.noticias .owl-theme .owl-nav [class*=owl-]:hover {
+    background: transparent !important;
+}
+
+.noticias .owl-theme .owl-nav {
+    margin-top: 20px;
+}
+
+.noticias .owl-carousel .owl-nav button.owl-prev {
+	margin-right: 2%;
+}
+
+.capacitacao-odontologica {
+    width: 100%;
+    height: 457px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.capacitacao-odontologica .capacitacao-titulo {
+	font-size: 2.5rem;
+	font-weight: 700;
+	color: #FFF;
+}
+
+.capacitacao-odontologica #capacitacao-titulo {
+	font-size: 2.8rem;
+}
+
+.capacitacao-odontologica .capacitacao-texto {
+	color: #FFF;
+	font-size: 1rem;
+	font-weight: 500;
+}
+
+.capacitacao-odontologica .capacitacao-form {
+    position: relative;
+    margin-top: 7.9%;
+}
+
+.capacitacao-odontologica .conteudo-form-capacitacao {
+	background-color: #03978B;
+	border-radius: 1rem 1rem 0rem 0rem;
+	-webkit-box-shadow: 0px 2px 8px 2px rgba(0,0,0,0.36); 
+	box-shadow: 0px 2px 8px 2px rgba(0,0,0,0.36);
+}
+
+.capacitacao-odontologica .conteudo-form-capacitacao .form-control {
+    border-radius: 0.6rem;
+}
+
+.capacitacao-odontologica .botao-form-capacitacao .form-control {
+    cursor: pointer;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #FFF;
+    background-color: #1B2D5B;
+    border: none;
+    border-radius: 0rem 0rem 1rem 1rem;
+    -webkit-box-shadow: 0px 2px 8px 2px rgba(0,0,0,0.36);
+    box-shadow: 0px 2px 8px 2px rgba(0,0,0,0.36);
+}
+
+.capacitacao-odontologica .form-control:disabled, .form-control[readonly] {
+    opacity: 0.8;
+}
+
+.capacitacao-odontologica .msg-enviada {
+	color: #FFF;
+	font-size: 1.8rem;
+	font-weight: 600;
+}
+
+.capacitacao-odontologica #msg-enviada {
+	font-weight: 500;
+}
+
+.capacitacao-odontologica .form-group label{
+	color: #FFF;
+	margin-top: 0.3rem;
+}
+
+.capacitacao-odontologica .capacitacao-titulo-form {
+	font-size: 2rem;
+	font-weight: 700;
+	color: #FFF;
+}
+
+.capacitacao-odontologica .capacitacao-texto-form {
+	color: #FFF;
+	font-size: 1rem;
+	font-weight: 400;
+}
+
+.nossas-unidades {
+	margin-top: 10rem;
+}
+
+.nossas-unidades .item {
+	cursor: pointer;
+}
+
+.nossas-unidades .title-unidades {
+	font-weight: 500;
+	font-size: 2.3rem;
+	color: #1B2D5B;
+}
+
+.nossas-unidades #title-unidade {
+	font-weight: 700;
+}
+
+.nossas-unidades .icon-localizacao {
+	height: 30px;
+}
+
+.nossas-unidades .unidades-individual {
+	width: 13rem;
+	height: 13rem;
+	border-radius: 0.8rem;
+	border: 5px solid #03978B;
+}
+
+.nossas-unidades .unidades-individual img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 0.3rem;
+}
+
+.nossas-unidades .texto-unidade {
+	font-size: 0.9rem;
+	font-weight: 700;
+	color: #1B2D5B;
+}
+
+.owl-carousel .owl-item .nome-unidade img {
+    display: block;
+    width: 30px;
+}
+
+.nossas-unidades .ativo .icon-localizacao {
+	content: url(https://concepts.summercomunicacao.com.br/uniero/site2022/wp-content/themes/uniero/assets/img/nossas-unidades/icon-mapa-unidades-select.svg);
+}
+
+.nossas-unidades .ativo .texto-unidade {
+	color: #03978B;
+}
+
+.nossas-unidades .info-unidades {
+	background-color: #03978B;
+	border-radius: 1rem;
+}
+
+.nossas-unidades .unidades-info-title {
+	font-weight: 400;
+	font-size: 2rem;
+	color: #FFF;
+}
+
+.nossas-unidades #unidades-info-title {
+	font-weight: 700;
+}
+
+.nossas-unidades .unidades-info-text {
+	font-weight: 500;
+	font-size: 1rem;
+	color: #FFF;
+}
+
+.nossas-unidades .divisor-telefone {
+	font-weight: 300;
+}
+
+.owl-stage {
+	transition: 1.5s !important;
+}
+
+@media screen and (min-width: 1900px) {
+	.dentistas .owl-carousel .owl-nav button.owl-next {
+    	right: -7%;
+	}
+
+	.dentistas .owl-carousel .owl-nav button.owl-prev {
+	    left: -7%;
+	}
+
+	.uniero-360 .logo-360 {
+		max-width: 100%;
+	}
+}
+
+@media screen and (min-width: 1440px) {
+	.bem-vindo .conteudo-bem-vindo {
+		left: 5%;
+	}
+}
+
+@media screen and (min-width: 1368px) {
+	.bem-vindo .conteudo-bem-vindo {
+		left: 7%;
+	}
+
+	.capacitacao-odontologica {
+		margin-top: 6rem !important;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.bem-vindo .conteudo-bem-vindo {
+		left: 1%;
+	}
+
+	.bem-vindo .video-bem-vindo,
+	.bem-vindo .bem-vindo-geral{
+		padding-right: 0 !important;
+	}
+
+	.uniero-360 .uniero-360-geral,
+	.uniero-360 .banner-uniero-360 {
+		padding-left: 0 !important;
+	}
+
+	.nossas-unidades {
+		margin-top: 6rem !important;
+	}
+}
+
+@media screen and (max-width: 1440px) {
+	.dentistas .owl-carousel .owl-nav button.owl-next {
+    	right: -4%;
+	}
+
+	.dentistas .owl-carousel .owl-nav button.owl-prev {
+	    left: -4%;
+	}
+
+	.uniero-360 .logo-360 {
+		max-width: 80%;
+	}
+}
+
+@media screen and (max-width: 1368px) {
+	.dentistas .owl-carousel .owl-nav button.owl-next {
+    	right: -7%;
+	}
+
+	.dentistas .owl-carousel .owl-nav button.owl-prev {
+	    left: -7%;
+	}
+
+	.uniero-360 .logo-360 {
+		max-width: 70%;
+	}
+
+	.noticias .imagem-destaque {
+		height: 22rem;
+		width: 440px !important;
+		object-fit: cover;
+	}
+
+	.noticias .info-post {
+		width: 440px;
+		background-color: #D5F0EB;
+		border-radius: 0rem 0rem 0.8rem 0.8rem;
+		border: 3px solid #03978B;
+		border-top: none;
+		height: 15.5rem;
+	}
+
+	.capacitacao-odontologica .capacitacao-titulo {
+		font-size: 2.3rem;
+	}
+
+	.capacitacao-odontologica #capacitacao-titulo {
+		font-size: 2.6rem;
+	}
+
+	.capacitacao-odontologica .capacitacao-form {
+	    position: relative;
+	    margin-top: 6.9%;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.bem-vindo .bem-vindo-title {
+		font-size: 2rem;
+	}
+
+	.dentistas .owl-carousel .owl-nav button.owl-next {
+    	right: 0%;
+	}
+
+	.dentistas .owl-carousel .owl-nav button.owl-prev {
+	    left: 0%;
+	}
+
+	.uniero-360 .content-360 {
+	    font-size: 0.9rem;
+	    letter-spacing: 0.9px;
+	}
+
+	.uniero-360 .logo-360 {
+		max-width: 75%;
+	}
+
+	.noticias .imagem-destaque {
+		height: 22rem;
+		width: 380px !important;
+		object-fit: cover;
+	}
+
+	.noticias .info-post {
+		width: 380px;
+		background-color: #D5F0EB;
+		border-radius: 0rem 0rem 0.8rem 0.8rem;
+		border: 3px solid #03978B;
+		border-top: none;
+		height: 15.5rem;
+	}
+
+	.noticias .titulo-post {
+		font-size: 1.2rem;
+	}
+
+	.capacitacao-odontologica .capacitacao-titulo {
+		font-size: 1.9rem;;
+	}
+
+	.capacitacao-odontologica #capacitacao-titulo {
+		font-size: 2.2rem;
+	}
+
+	.capacitacao-odontologica .capacitacao-form {
+	    position: relative;
+	    margin-top: 6.9%;
+	}
+
+	
+}
+
+@media screen and (max-width: 768px) {
+	.bem-vindo {
+		background-color: #03978B;
+	}
+
+	.bem-vindo .conteudo-bem-vindo {
+		background-color: #03978B;
+		border-radius: 0.8rem;
+		position: relative;
+	}
+
+	.bem-vindo .video-bem-vindo #video {
+		height: 402px;
+		border-radius: 0.8rem;
+	}
+
+	.bem-vindo .bem-vindo-indicador img {
+		content: url(https://concepts.summercomunicacao.com.br/uniero/site2022/wp-content/themes/uniero/assets/img/bem-vindo-seta-mobile.svg);
+		height: 1rem;
+	}
+
+	.uniero-360 #imagem-360 {
+	    border-radius: 0.8rem;
+	    -webkit-box-shadow: 7px 6px 14px 1px rgba(0,0,0,0.1);
+	    box-shadow: 7px 6px 14px 1px rgba(0,0,0,0.1);
+	    max-width: 100%;
+	}
+
+	.uniero-360 .content-360 {
+	    font-size: 1.1rem;
+	    letter-spacing: 0.9px;
+	}
+
+	.nossas-unidades {
+		margin-top: 23rem !important;
+	}
+
+	.nossas-unidades .row > * {
+    	padding-right: 0;
+    	padding-left: 0;
+	}
+}
+
+@media screen and (max-width: 620px) { 
+	.nossas-unidades {
+		margin-top: 20rem !important;
+	}
+}
+
+@media screen and (max-width: 425px) {
+
+	.bem-vindo .bem-vindo-texto {
+		font-size: 0.9rem;
+	}
+
+	.bem-vindo .bem-vindo-indicador {
+		font-size: 0.9rem;
+	}
+
+	.dentistas .titulo-dentista {
+    	font-size: 2rem;
+	}
+
+	.uniero-360 .content-360 {
+    	font-size: 0.9rem;
+    }
+
+    .uniero-360 .owl-carousel .owl-item img {
+	    display: block;
+	    max-width: 80%;
+	}
+
+	.capacitacao-odontologica {
+	    width: 100%;
+	    height: 100%;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	    background-position: right;
+	}
+
+	.capacitacao-odontologica .capacitacao-titulo {
+		font-size: 1.5rem;
+	}
+
+	.capacitacao-odontologica #capacitacao-titulo {
+		font-size: 1.8rem;
+	}
+
+	.capacitacao-odontologica .capacitacao-texto {
+		font-size: 0.9rem;
+	}
+
+	.capacitacao-odontologica .capacitacao-form {
+	    position: relative;
+	    margin-top: 0%;
+	}
+
+	.nossas-unidades {
+		margin-top: 3rem !important;
+	}
+
+	.nossas-unidades .unidades-info-text {
+		font-size: 0.9rem;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.dentistas .titulo-dentista {
+		font-size: 1.8rem;
+	}
+
+	.dentistas .dentistas-parceiros {
+		width: 360px;
+		height: 22rem;
+	}
+
+	.uniero-360 .owl-carousel .owl-item img {
+	    display: block;
+	    max-width: 60%;
+	}
+
+	.capacitacao-odontologica .botao-form-capacitacao .form-control {
+		font-size: 1.5rem;
+	}
+
+	.nossas-unidades .unidades-info-text {
+		font-size: 0.8rem;
+	}
+
+	.nossas-unidades .unidades-info-title {
+	    font-size: 1.8rem;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	.exames .subtitle-section {
+	    color: #1B2D5B;
+	    font-size: 1.3rem;
+	    font-weight: 600;
+	}
+
+	.dentistas .titulo-dentista {
+    	font-size: 1.6rem;
+	}
+
+	.dentistas .dentistas-parceiros {
+		width: 319px;
+		height: 22rem;
+	}
+
+	.dentistas .nome-parceiro {
+		font-size: 1.2rem;
+	}
+
+	.dentistas .funcao-parceiro {
+		font-size: 1rem;
+	}
+
+	.dentistas .texto-dentistas {
+		font-size: 0.88rem;
+	}
+
+	.capacitacao-odontologica .capacitacao-titulo {
+		font-size: 1.2rem;
+	}
+
+	.capacitacao-odontologica #capacitacao-titulo {
+		font-size: 1.4rem;
+	}
+
+	.capacitacao-odontologica .capacitacao-texto {
+		font-size: 0.8rem;
+	}
+
+	.capacitacao-odontologica .capacitacao-titulo-form {
+    	font-size: 1.5rem;
+	}
+}

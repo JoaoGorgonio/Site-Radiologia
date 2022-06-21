@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="68" height="69" viewBox="0 0 68 69">
+  <g id="Esquerda" transform="translate(-280 -366)">
+    <ellipse id="Esquerda-2" data-name="Esquerda" cx="34" cy="34.5" rx="34" ry="34.5" transform="translate(280 366)" fill="#03978b"/>
+    <g id="Icon_feather-arrow-left" data-name="Icon feather-arrow-left" transform="translate(293.5 381.5)">
+      <path id="Caminho_22" data-name="Caminho 22" d="M33.648,18H7.5" transform="translate(0 1.48)" fill="none" stroke="#1b2d5b" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path id="Caminho_23" data-name="Caminho 23" d="M18,31.461,7.5,19.48,18,7.5" fill="none" stroke="#1b2d5b" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    </g>
+  </g>
+</svg>
